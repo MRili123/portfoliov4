@@ -1,0 +1,301 @@
+@import "../../vars.css";
+
+.from_title {
+  font-size: 100px;
+}
+
+#formName, #formEmail {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  outline: none; /* Removes the focus outline */
+  border: none; /* Removes any border */
+  border-radius: 30px;
+}
+
+#sendButton {
+  width: 70%;
+  height: 15%;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  background-image: linear-gradient(131deg, #493cff, #ff3ce8);
+}
+
+#sendButton:hover {
+  transform: scale(1.1);
+}
+
+#formName::placeholder, #formEmail::placeholder {
+  font-size: 20px;
+}
+
+#formMessage {
+  font-size: 20px;
+  outline: none; /* Removes the focus outline */
+  border: none; /* Removes any border */
+
+}
+
+#formMessage::placeholder {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.container1 {
+  height: 100vh;
+  display: flex;
+  gap: 60px;
+}
+
+form {
+  min-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  color: #212529;
+  font-size: 2.5rem;
+}
+
+.form-control {
+  background-color: #f2f6f8;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+
+.form-control.thick {
+  height: 3.3rem;
+  padding: .5rem 3.5rem;
+}
+
+.form-control:focus {
+  background-color: #f2f6f8;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+
+.message .form-control {
+  padding: .5rem 1.8rem;
+}
+
+::placeholder {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #838788;
+}
+
+input,
+textarea {
+  font-family: 'Quicksand', sans-serif;
+  color: #212529;
+  font-size: 1.1rem;
+}
+
+.icon {
+  color: #57565c;
+  height: 1.3rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 1.1rem;
+}
+
+.btn.btn-primary {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 70px;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  border: 0;
+  border-radius: 3rem;
+  color: white;
+  margin-left: 50px;
+  background-image: linear-gradient(131deg, #b340ff, #493cff, #ff3ce8, #3c83ff);
+  background-size: 300% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover:enabled {
+  box-shadow: 0 0.5em 0.5em -0.4em #f15cffba;
+  background-size: 100% 100%;
+  transform: translateY(-0.15em);
+}
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.contactssocialmedia {
+  display: flex;
+  gap: 30px;
+}
+
+.iconlink {
+  display: inline-block; /* or flex */
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 30%;
+  transition: all 0.3s ease;
+}
+
+.iconlink img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.iconlink:hover {
+  transform: scale(1.1);
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+  display: flex;
+  align-items: center;
+  }
+
+  .text h2 {
+    font-size: 60px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .btn.btn-primary {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+    padding: 20px;
+  }
+
+  .text h2 {
+    font-size: 40px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .from_title {
+    font-size: 50px;
+  }
+
+  #formName, #formEmail {
+    height: 50px;
+    width: 70%;
+    font-size: 16px;
+  }
+  #formMessage{
+   height: 100%;
+   width: 70%;
+   margin-left: 80px;
+  }
+
+  #sendButton {
+    width: 70%;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .text h2 {
+    font-size: 30px;
+  }
+  #formMessage{
+    height: 100%;
+    width: 70%;
+    margin-left: 60px;
+   }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .btn.btn-primary {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .iconlink {
+    width: 60px;
+    height: 60px;
+  }
+
+  .iconlink img {
+    width: 60px;
+    height: 60px;
+  }
+}

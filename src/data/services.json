@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Front end",
+    
+    "imageSrc": "history/UI.png"
+  },
+  {
+    "role": "Back end",
+   
+    "imageSrc": "history/setting.png"
+  },
+  {
+    "role": "Other",
+    "imageSrc": "history/term.png"
+  }
+]

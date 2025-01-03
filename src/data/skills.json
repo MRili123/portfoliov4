@@ -1,0 +1,64 @@
+[
+  { "role": "Front end", 
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  { "role": "Front end",
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  { "role": "Front end",
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+
+  { "role": "Front end",
+    "title": "JS",
+    "imageSrc": "skills/JS.png"
+  },
+  { "role": "Front end",
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  { "role": "Back end",
+    "title": "Laravel",
+    "imageSrc": "skills/laravel.png"
+  },
+  { "role": "Back end",
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  { "role": "Back end",
+    "title": "Spring Boot",
+    "imageSrc": "skills/spring.png"
+  },
+  { "role": "Back end",
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  { "role": "Back end",
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  { "role": "Back end",
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  { "role": "Other",
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  { "role": "Other",
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  { "role": "Other",
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  { "role": "Other",
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  }
+ 
+]
