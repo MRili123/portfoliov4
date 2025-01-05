@@ -10,6 +10,61 @@
   margin: 0 10%;
 }
 
+
+ 
+.dropdownbutton {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+} 
+.customdropdown img {
+  width: 20px; /* Adjust to the desired width */
+  height: 20px; /* Adjust to the desired height */
+  border-radius: 3px; /* Optional: adds rounded corners */
+  margin-right: 8px; /* Spacing between image and text */
+  vertical-align: middle; /* Aligns the image with the text */
+}
+
+ .dropdownoptions {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
+ 
+.dropdownoptions li {
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+} 
+
+ .dropdownoptions li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+} 
+
+.dropdownbutton:hover {
+  border-color: #007bff;
+} 
+
+ .dropdownbutton:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 86, 179, 0.3);
+} 
+
+
 .title {
   font-size: 30px;
   font-weight: 600;

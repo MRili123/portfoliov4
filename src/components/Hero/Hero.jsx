@@ -6,7 +6,7 @@ import { getImageUrl } from "../../utils";
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-export const Hero = () => {
+export const Hero = ({lang}) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -121,11 +121,16 @@ export const Hero = () => {
   }, []);
 
   const handleCV = () => {
-    console.log("Hello World");
     let fileUrl;
     let fileName;
-    fileUrl = './cv_en.pdf';
-    fileName = 'IliasJebraneCV_EN.pdf';
+    if (lang ==='en') {
+      fileUrl = './cv_en.pdf';
+      fileName = 'IliasJebraneCV_EN.pdf';
+    }else  if (lang ==='fr'){
+      fileUrl = './cv_fr.pdf';
+      fileName = 'IliasJebraneCV_FR.pdf';
+    }
+  
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = fileName;
