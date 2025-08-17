@@ -1,0 +1,41 @@
+{
+  "contact": {
+    "title": "Contactez-nous",
+    "formTitle": "Parlez-nous",
+    "namePlaceholder": "Nom",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Message",
+    "sendButton": "Envoyer le message",
+    "alertFillFields": "Veuillez remplir tous les champs.",
+    "alertSuccess": "Message envoyé avec succès !",
+    "alertFail": "Échec de l'envoi du message"
+  },
+  
+  "navbar": {
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact"
+  
+},
+
+  "about": {
+    "title": "À propos",
+    "frontendTitle": "Développeur Frontend",
+    "frontendDesc": "Je suis un développeur frontend avec de l'expérience dans la création de sites réactifs et optimisés",
+    "backendTitle": "Développeur Backend",
+    "backendDesc": "J'ai de l'expérience dans le développement de systèmes back-end rapides et optimisés ainsi que d'API",
+    "uiTitle": "Concepteur UI",
+    "uiDesc": "J'ai conçu plusieurs pages d'accueil et créé également des systèmes de design"
+  },
+   "hero": {
+    "title": "Salut, je suis Ilias",
+    "description": "Je suis un développeur full-stack avec 5 ans d'expérience en React et NodeJS. Contactez-moi si vous souhaitez en savoir plus !",
+    "contactBtn": "Contactez-moi",
+    "downloadBtn": "Télécharger le CV"
+  }
+
+
+
+  
+}
