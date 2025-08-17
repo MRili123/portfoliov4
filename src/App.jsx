@@ -9,6 +9,7 @@ import { Projects } from "./components/Projects/Projects";
 
 function App() {
   const [lang, setLang] = useState("");
+
   return (
     <div className={styles.App}>
       <Navbar sendLang={setLang} lang={lang} />
